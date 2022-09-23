@@ -10,6 +10,16 @@
 
 <br>
 
+<br>
+
+# WindowsOS touch 랑 비슷한 기능
+
+```
+$ echo $null >> hello.adb
+```
+
+<br>
+
 # Ada_Lang Compile
 
 주의할 점 intel CPU에서만 되는것 같다. ㅠㅠ 
