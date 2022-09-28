@@ -49,3 +49,42 @@ end Greet;
 
 ```
 
+<br>
+
+# Windows .sh build 사용하는 방법
+
+1. choco 에서 git 설치하기
+
+PowerShell에서 실행
+```
+$ choco install git
+```
+
+<br>
+
+2. Path 설정 - 윈도우 환경변수 설정
+
+```
+C:\Program Files\Git\bin
+```
+
+3. 내가 만든 build.sh 가서
+
+```
+$ sh ./build.sh
+```
+
+<br>
+
+build.sh 파일 예시
+
+```
+gcc -c hello.adb
+gnatbind -x hello.ali
+gnatlink hello.ali -o hello
+./hello.exe
+
+rm -rf *.ali
+rm -rf *.o
+```
+
