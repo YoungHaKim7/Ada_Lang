@@ -1,4 +1,4 @@
-pub use gpr::Project;
+use gpr::Project;
 use std::{path::Path, process::Command};
 
 fn main() {
