@@ -88,3 +88,15 @@ rm -rf *.ali
 rm -rf *.o
 ```
 
+<br>
+
+# Ada to Rust
+
+gpr-rust Gpr-Rust is a Rust binding for gpr. its goal is to provide an easy way to integrate Ada sources into the Rust build process. It allows to select and build a GNAT project file by parsing the project and providing all required information to call gprbuild and link the resulting library.
+
+- Rust binding for gpr
+
+https://github.com/jklmnn/gpr-rust
+
+
+<br>
