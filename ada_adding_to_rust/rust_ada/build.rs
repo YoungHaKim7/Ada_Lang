@@ -14,8 +14,7 @@ fn main() {
         ada_hello.library_dir().unwrap().to_str().unwrap()
     );
     println!(
-        "cargo:rustc-link-lib={}={}",
-        ada_hello.library_kind().unwrap(),
+        "cargo:rustc-link-lib=dylib={}",
         ada_hello.library_name().unwrap()
     );
 }
