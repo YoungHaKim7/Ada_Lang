@@ -108,3 +108,11 @@ https://github.com/jklmnn/gpr-rust
 
 
 <br>
+
+# 내가 공부하려고 만든 영상
+
+- Ada한글_강의001_HelloWorld_Ada 안전한 언어 #ada
+
+https://youtu.be/zwFgGOSQL84
+
+<br>
