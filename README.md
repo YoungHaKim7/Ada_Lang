@@ -26,6 +26,13 @@ https://github.com/thindil/vim-ada
 
 https://github.com/idanarye/vim-vebugger
 
+
+<br>
+
+## vebuger screencast
+
+https://vimeo.com/95775461
+
 <br>
 
 <hr>
