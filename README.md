@@ -1,16 +1,12 @@
 # Ada Vim Setting
 
-
 https://vimhelp.org/ft_ada.txt.html#ada.vim
-
 
 # LSP settings
 
 https://github.com/thindil/vim-ada
 
 - ident 세팅부터 맘에 드는 plugIn이 많다. ㅎ
-
-
 
 <br>
 
@@ -31,7 +27,6 @@ https://github.com/thindil/vim-ada
 # debugger 1
 
 https://github.com/idanarye/vim-vebugger
-
 
 <br>
 
@@ -69,30 +64,33 @@ $ echo $null >> hello.adb
 
 # Ada_Lang Compile
 
-주의할 점 intel CPU에서만 되는것 같다. ㅠㅠ 
+주의할 점 intel CPU에서만 되는것 같다. ㅠㅠ
 intel이 아닌 컴퓨터에서는 위에 있는 Ada Compiler Web을 이용해 연습하자
 !!
 
 <br>
 
+build.sh
+
 ```
+#!/bin/bash
+
 gcc -c hello.adb
 gnatbind -x hello.ali
 gnatlink hello.ali -o hello
 ./hello.exe
 ```
 
-
 hello.adb 예시 코드
 
 ```
 with Ada.Text_IO; use Ada.Text_IO;
 
-procedure Greet is
+procedure Hello is
 begin
     -- Print "Hello, World! Ada Lang" to the screen
     Ada.Text_IO.Put_Line ("Hello, World ! Ada Lang");
-end Greet;
+end Hello;
 
 ```
 
@@ -103,6 +101,7 @@ end Greet;
 1. choco 에서 git 설치하기
 
 PowerShell에서 실행
+
 ```
 $ choco install git
 ```
@@ -150,15 +149,13 @@ https://blog.adacore.com/adding-ada-to-rust
 
 - Rust binding for gpr
 
-
 https://github.com/jklmnn/gpr-rust
-
 
 <br>
 
 # 내가 공부하려고 만든 영상
 
-- Ada한글_강의001_HelloWorld_Ada 안전한 언어 #ada
+- Ada한글\_강의001_HelloWorld_Ada 안전한 언어 #ada
 
 https://youtu.be/zwFgGOSQL84
 
@@ -168,7 +165,7 @@ https://youtu.be/zwFgGOSQL84
 
 <hr>
 
-# 모든 언어를 무료로 공부할 수 있다. 
+# 모든 언어를 무료로 공부할 수 있다.
 
 출처 : stackoverflow.com
 알게 된 링크
@@ -177,12 +174,11 @@ https://youtu.be/zwFgGOSQL84
 
 https://stackoverflow.com/questions/38683512/why-git-shallow-clone-can-have-more-commits-than-depth/38683775#38683775
 
-
 - Github 주소
 
 https://github.com/EbookFoundation/free-programming-books
 
-- EbookFoundation  
+- EbookFoundation
 
 https://ebookfoundation.github.io/free-programming-books/
 
