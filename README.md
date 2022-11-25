@@ -4,12 +4,19 @@
 https://vimhelp.org/ft_ada.txt.html#ada.vim
 
 
+
+
 <br>
 
 - help vim and ada language
 
 https://www.reddit.com/r/vim/comments/kyjx67/help_vim_and_ada_language_coc/
 
+<br>
+
+# Ada VIm Setting 2 여기가 잘 정리됨
+
+https://github.com/thindil/vim-ada
 
 <br>
 
