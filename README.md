@@ -125,6 +125,8 @@ $ sh ./build.sh
 build.sh 파일 예시
 
 ```
+#!/bin/bash
+
 gcc -c hello.adb
 gnatbind -x hello.ali
 gnatlink hello.ali -o hello
