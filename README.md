@@ -4,6 +4,9 @@
 https://vimhelp.org/ft_ada.txt.html#ada.vim
 
 
+- LSP settings
+https://github.com/thindil/vim-ada
+
 
 
 <br>
