@@ -4,8 +4,11 @@
 https://vimhelp.org/ft_ada.txt.html#ada.vim
 
 
-- LSP settings
+# LSP settings
+
 https://github.com/thindil/vim-ada
+
+- ident 세팅부터 맘에 드는 plugIn이 많다. ㅎ
 
 
 
