@@ -1,3 +1,18 @@
+# Ada Vim Setting
+
+
+https://vimhelp.org/ft_ada.txt.html#ada.vim
+
+
+<br>
+
+- help vim and ada language
+
+https://www.reddit.com/r/vim/comments/kyjx67/help_vim_and_ada_language_coc/
+
+
+<br>
+
 # Ada Compiler Web
 
 [coding_ground_online_Ada_Compiler](https://www.tutorialspoint.com/compile_ada_online.php)
