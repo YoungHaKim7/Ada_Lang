@@ -54,6 +54,18 @@ https://vimeo.com/95775461
 
 <br>
 
+# Learn Ada core 2
+
+- AdaCore U Video Tutorials
+
+
+https://youtube.com/playlist?list=PLkoa8uxigENkneyEEeDWVPgpMhPc9IJ7o
+
+<br>
+
+<hr>
+
+
 # WindowsOS touch 랑 비슷한 기능
 
 ```
