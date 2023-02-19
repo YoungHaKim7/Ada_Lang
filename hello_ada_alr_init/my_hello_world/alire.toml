@@ -1,0 +1,9 @@
+name = "my_hello_world"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Your Name"]
+maintainers = ["Your Name <ytok1108@aol.com>"]
+maintainers-logins = ["test"]
+
+executables = ["my_hello_world"]
