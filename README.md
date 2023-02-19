@@ -16,6 +16,12 @@ $ alr init --bin my_hello_world
 
 <hr>
 
+<br>
+
+# Ada Language Server
+
+https://github.com/AdaCore/ada_language_server
+
 # Ada Vim Setting
 
 https://vimhelp.org/ft_ada.txt.html#ada.vim
