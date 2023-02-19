@@ -1,3 +1,21 @@
+# alr \_\_ Ada Hello World
+
+https://ada-lang.io/docs/learn/tutorial/hello-world
+
+<br>
+
+- Alire will generate you a new project. You want to start, or initialize (init), a new project which runs an executable, which is also called a binary (bin).
+
+```
+
+$ alr init --bin my_hello_world
+
+```
+
+<br>
+
+<hr>
+
 # Ada Vim Setting
 
 https://vimhelp.org/ft_ada.txt.html#ada.vim
@@ -58,13 +76,11 @@ https://vimeo.com/95775461
 
 - AdaCore U Video Tutorials
 
-
 https://youtube.com/playlist?list=PLkoa8uxigENkneyEEeDWVPgpMhPc9IJ7o
 
 <br>
 
 <hr>
-
 
 # WindowsOS touch 랑 비슷한 기능
 
