@@ -106,6 +106,11 @@ https://youtube.com/playlist?list=PLkoa8uxigENkneyEEeDWVPgpMhPc9IJ7o
 
 <br>
 
+
+# Learn Ada 3(alire, alr)
+
+https://github.com/alire-project/alire/blob/master/doc/getting-started.md
+
 <hr>
 
 # WindowsOS touch 랑 비슷한 기능
