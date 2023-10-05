@@ -12,6 +12,10 @@ https://alire.ada.dev/
 
 https://gist.github.com/1ma/8453a224ab3ba427ae746fd56a4893c4
 
+# Ada 전용 에디터 ^^
+
+https://github.com/AdaCore/gnatstudio/releases
+
 # alr \_\_ Ada Hello World
 
 https://ada-lang.io/docs/learn/tutorial/hello-world
