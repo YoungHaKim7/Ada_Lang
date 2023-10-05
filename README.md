@@ -10,6 +10,8 @@ https://alire.ada.dev/
 
 # VSCode Ada Debugging
 
+- https://marketplace.visualstudio.com/items?itemName=AdaCore.ada-debug
+
 https://gist.github.com/1ma/8453a224ab3ba427ae746fd56a4893c4
 
 # Ada 전용 에디터 ^^
