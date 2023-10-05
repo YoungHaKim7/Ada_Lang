@@ -4,6 +4,10 @@
 
 <hr>
 
+# alire
+
+https://alire.ada.dev/
+
 # alr \_\_ Ada Hello World
 
 https://ada-lang.io/docs/learn/tutorial/hello-world
