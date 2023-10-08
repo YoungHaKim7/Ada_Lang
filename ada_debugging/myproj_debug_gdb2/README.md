@@ -1,5 +1,7 @@
 # Result
 
+https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+
 - ```alr build```
 
 - ```gdb myproj_debug_gdb2```
