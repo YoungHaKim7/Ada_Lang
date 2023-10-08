@@ -144,4 +144,155 @@ raised ADA.IO_EXCEPTIONS.DATA_ERROR : a-tiinio.adb:104 instantiated at a-inteio.
 [Inferior 1 (process 68643) exited with code 01]
 
 (gdb) quit
+
+
+
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/gy/my_project/ada_lang/Ada_Lang/ada_tutorial/01_Advanced_Journey_With_Ada/1_Types/1_1_Scalar_Types/a02_show_succ_pred_discrete/bin/a02_show_succ_pred_discrete
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main (argc=argc@entry=1, argv=argv@entry=0x7fffffffd298, envp=0x7fffffffd2a8) at b__a02_show_succ_pred_discrete.adb:229
+229	   function main
+(gdb) info args
+argc = 1
+argv = 0x7fffffffd298
+envp = 0x7fffffffd2a8
+(gdb) info locals
+seh = (4207792, 0)
+ensure_reference = (system.address) 0x1000
+(gdb) info listsize
+Undefined info command: "listsize".  Try "help info".
+(gdb) info variable_name
+Undefined info command: "variable_name".  Try "help info".
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /home/gy/my_project/ada_lang/Ada_Lang/ada_tutorial/01_Advanced_Journey_With_Ada/1_Types/1_1_Scalar_Types/a02_show_succ_pred_discrete/bin/a02_show_succ_pred_discrete
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main (argc=argc@entry=1, argv=argv@entry=0x7fffffffd298, envp=0x7fffffffd2a8) at b__a02_show_succ_pred_discrete.adb:229
+229	   function main
+(gdb) info variable_name
+Undefined info command: "variable_name".  Try "help info".
+(gdb) info threads
+  Id   Target Id                                           Frame
+* 1    Thread 0x7ffff7d78740 (LWP 14946) "a02_show_succ_p" main (
+    argc=argc@entry=1, argv=argv@entry=0x7fffffffd298,
+    envp=0x7fffffffd2a8) at b__a02_show_succ_pred_discrete.adb:229
+(gdb) disassemble
+Dump of assembler code for function main:
+=> 0x0000000000403bd4 <+0>:	sub    $0x18,%rsp
+   0x0000000000403bd8 <+4>:	movq   $0x42ef40,(%rsp)
+   0x0000000000403be0 <+12>:	mov    0x44b82(%rip),%eax        # 0x448768 <gnat_argc>
+   0x0000000000403be6 <+18>:	test   %eax,%eax
+   0x0000000000403be8 <+20>:	jne    0x403bf7 <main+35>
+   0x0000000000403bea <+22>:	mov    %edi,0x44b78(%rip)        # 0x448768 <gnat_argc>
+   0x0000000000403bf0 <+28>:	mov    %rsi,0x44b69(%rip)        # 0x448760 <gnat_argv>
+   0x0000000000403bf7 <+35>:	mov    %rdx,0x44b5a(%rip)        # 0x448758 <gnat_envp>
+   0x0000000000403bfe <+42>:	lea    0x8(%rsp),%rdi
+   0x0000000000403c03 <+47>:	call   0x425030 <__gnat_initialize>
+   0x0000000000403c08 <+52>:	call   0x40388e <adainit>
+   0x0000000000403c0d <+57>:	call   0x403596 <_ada_a02_show_succ_pred_discrete>
+   0x0000000000403c12 <+62>:	call   0x40386a <adafinal>
+   0x0000000000403c17 <+67>:	call   0x424db0 <__gnat_finalize>
+   0x0000000000403c1c <+72>:	mov    0x44b52(%rip),%eax        # 0x448774 <gnat_exit_status>
+   0x0000000000403c22 <+78>:	add    $0x18,%rsp
+   0x0000000000403c26 <+82>:	ret
+End of assembler dump.
+(gdb) info display
+There are no auto-display expressions now.
+(gdb) c
+Continuing.
+
+Breakpoint 2, a02_show_succ_pred_discrete () at /home/gy/my_project/ada_lang/Ada_Lang/ada_tutorial/01_Advanced_Journey_With_Ada/1_Types/1_1_Scalar_Types/a02_show_succ_pred_discrete/src/a02_show_succ_pred_discrete.adb:3
+3	procedure A02_Show_Succ_Pred_Discrete is
+(gdb) info locals
+idle = idle
+started = started
+processing = processing
+stopped = stopped
+machin_state = started
+i = 2
+(gdb) c
+Continuing.
+
+Breakpoint 3, a02_show_succ_pred_discrete () at /home/gy/my_project/ada_lang/Ada_Lang/ada_tutorial/01_Advanced_Journey_With_Ada/1_Types/1_1_Scalar_Types/a02_show_succ_pred_discrete/src/a02_show_succ_pred_discrete.adb:9
+9	  Put_Line (" State                    : " & Machin_State'Image);
+(gdb) info locals
+idle = idle
+started = started
+processing = processing
+stopped = stopped
+machin_state = started
+i = 2
+(gdb) info args
+No arguments.
+(gdb) c
+Continuing.
+ State                    : STARTED
+ State'Pred (Machin_State): IDLE
+ State'Succ (Machin_State): PROCESSING
+----------------------------------
+I                :  2
+Interget'Pred (I):  1
+Integer'Succ (I) :  3
+[Inferior 1 (process 14946) exited normally]
+(gdb) info args
+No frame selected.
+(gdb) info locals
+No frame selected.
+(gdb) bt
+No stack.
+(gdb) s
+The program is not being run.
+(gdb) r
+Starting program: /home/gy/my_project/ada_lang/Ada_Lang/ada_tutorial/01_Advanced_Journey_With_Ada/1_Types/1_1_Scalar_Types/a02_show_succ_pred_discrete/bin/a02_show_succ_pred_discrete
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main (argc=argc@entry=1, argv=argv@entry=0x7fffffffd298, envp=0x7fffffffd2a8) at b__a02_show_succ_pred_discrete.adb:229
+229	   function main
+(gdb) s
+242	      Ensure_Reference : aliased System.Address := Ada_Main_Program_Name'Address;
+(gdb) s
+246	      if gnat_argc = 0 then
+(gdb) s
+247	         gnat_argc := argc;
+(gdb) p args
+No definition of "args" in current context.
+(gdb) p argc
+$1 = 1
+(gdb) s
+248	         gnat_argv := argv;
+(gdb) p argc
+$2 = 1
+(gdb) s
+250	      gnat_envp := envp;
+(gdb) bt
+#0  main (argc=argc@entry=1, argv=argv@entry=0x7fffffffd298,
+    envp=0x7fffffffd2a8) at b__a02_show_succ_pred_discrete.adb:250
+#1  0x00007ffff7da4d90 in __libc_start_call_main (
+    main=main@entry=0x403bd4 <main>, argc=argc@entry=1,
+    argv=argv@entry=0x7fffffffd298)
+    at ../sysdeps/nptl/libc_start_call_main.h:58
+#2  0x00007ffff7da4e40 in __libc_start_main_impl (main=0x403bd4 <main>,
+    argc=1, argv=0x7fffffffd298, init=<optimized out>,
+    fini=<optimized out>, rtld_fini=<optimized out>,
+    stack_end=0x7fffffffd288) at ../csu/libc-start.c:392
+#3  0x00000000004034d5 in _start ()
+(gdb) p 0x7fffffffd288
+$3 = 140737488343688
+(gdb) p argc
+$4 = 1
+(gdb) p/x argc
+$5 = 0x1
+(gdb) en dis
+(gdb) q
+A debugging session is active.
 ```
+
+https://dining-developer.tistory.com/13
