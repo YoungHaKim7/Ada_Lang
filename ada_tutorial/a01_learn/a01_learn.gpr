@@ -1,0 +1,22 @@
+with "config/a01_learn_config.gpr";
+project A01_Learn is
+
+   for Source_Dirs use ("src/", "config/");
+   for Object_Dir use "obj/" & A01_Learn_Config.Build_Profile;
+   for Create_Missing_Dirs use "True";
+   for Exec_Dir use "bin";
+   for Main use ("a01_learn.adb");
+
+   package Compiler is
+      for Default_Switches ("Ada") use A01_Learn_Config.Ada_Compiler_Switches;
+   end Compiler;
+
+   package Binder is
+      for Switches ("Ada") use ("-Es"); --  Symbolic traceback
+   end Binder;
+
+   package Install is
+      for Artifacts (".") use ("share");
+   end Install;
+
+end A01_Learn;
