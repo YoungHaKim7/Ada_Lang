@@ -15,6 +15,26 @@ https://alire.ada.dev/
 
 https://gist.github.com/1ma/8453a224ab3ba427ae746fd56a4893c4
 
+<hr>
+
+# Ada ```.gitignore```
+
+https://github.com/github/gitignore
+
+```
+/obj/
+/bin/
+/alire/
+/config/
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+```
+
+<hr>
+
 # Ada 전용 에디터 ^^
 
 https://github.com/AdaCore/gnatstudio/releases
