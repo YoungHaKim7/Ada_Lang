@@ -1,3 +1,13 @@
+# gdb 간단한 사용법 
+
+- gdb 기본 사용방법 변수 확인 방법
+  - https://jayy-h.tistory.com/m/11
+
+- gdb(2) - 실제 환경에서의 디버깅(코어파일, 실행중 프로세스 )
+  - https://jayy-h.tistory.com/m/12
+
+<hr>
+
 # help vim and ada language coc
 
 
